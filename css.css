@@ -43,7 +43,7 @@ body {
     margin: 0 auto; 
      display: flex;
   justify-content: center;
-
+}
 .page{
     position: relative;
     width: 925px;
@@ -69,6 +69,7 @@ body {
     float: left;
     width: 300px;
     margin: 15px ;
+    margin-bottom: 50px;
     left: 0px;
     border-radius: 10px 10px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -78,10 +79,16 @@ body {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
 
-  #footer{
-    clear: both;
-    border-top: 1px solid gray;
-    text-align: center;
-    padding: 20px;
+  .jb-text {
+    margin:  auto;
+    width: 1400px;
+    padding: 15px 20px;
+    background-color: #444444;
+    border-radius: 5px;
+    color: #ffffff;
   }
+
+  .mainimg:hover + .jb-text {
+    color: red;
+  } 
   
